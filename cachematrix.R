@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
- 
-## Write a short comment describing this function
+## I've just modified some line from the example
+
+## It's pretty much do the same as MakeVector but instead of vector and mean
+## it will set and get the Matrix and Inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   
@@ -20,7 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This is also pretty much the same as cacheMean but instead of calculating
+## and save the mean it will calculate the inverse and save it.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
